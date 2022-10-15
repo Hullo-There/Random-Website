@@ -1,0 +1,115 @@
+body {
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-image: url("D:/Josh/images/background.jpg");
+    background-color: rgb(68, 68, 68);
+    color: rgba(255, 255, 255, 0.404);
+    font-family: Arial, Helvetica, sans-serif;
+      }
+
+    a {
+        text-decoration: none;
+        color: rgb(255, 255, 255, 0.404);
+        text-shadow: 2px;}
+    h1 {
+        margin: 0}
+
+mark {
+    background-color: rgb(68, 68, 68);
+    color: rgb(255, 255, 255, 0.404)}
+
+#body { 
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    background-color: rgb(68, 68, 68);
+    font-style: italic;
+    animation: color-change 10s infinite;}
+      
+@keyframes color-change {
+    0% { color: red; }
+    9.090909090909091% { color: orangered; }
+    18.18181818181818% { color: orange; }
+    27.27272727272727% { color: yellow; }
+    36.36363636363636% { color: greenyellow; }
+    45.45454545454545% { color: rgb(72, 255, 0); }
+    54.54545454545455% { color: green; }
+    63.63636363636364% { color: teal; }
+    72.72727272727273% { color: rgb(0, 60, 255); }
+    81.81818181818182% { color: purple; }
+    90.90909090909091% { color: rgb(188, 20, 255); }
+    100% { color: red; }}
+
+#footer {
+    position: relative;
+    margin-top: -10px;
+    height: 10px;
+    clear: both;}
+
+#Facts {
+    color: rgb(255, 0, 0)
+}
+
+#grid-col {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-row-gap: 20px;
+        color:rgb(0, 60, 255)}
+        
+    .container {
+        margin-left: auto;
+        margin-right: auto;
+        justify-items: center;
+        align-items: center;}
+    div.cell {
+        margin-left: auto;
+        background: rgba(255, 255, 255, 0);
+        border: 1px solid rgba(255, 0, 0, 0);
+        width: 300px}
+
+#topnav{
+    padding: 0px;
+    margin-top: -1%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    height: 240px;
+    background-color: rgb(68, 68, 68);
+    }
+        
+    ul {
+        padding: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        list-style: none;
+        position: relative;
+        display: inline;
+        }
+        
+    ul li{
+        border-radius: 15px;
+        margin-left: 50px;
+        float: left;
+        width: 200px;
+        height: 40px;
+        background-color: black;
+        align-self: center;
+        text-align: center;
+        font-size: 20px;
+        line-height: 40px;
+        }
+
+    ul li a{
+        display: block;
+        text-decoration: none;
+        color: white;
+        }
+        
+    ul li a:hover{
+        border-radius: 15px;
+        background-color: rgb(48, 200, 249);
+        }
+
